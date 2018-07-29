@@ -42,7 +42,7 @@ namespace Leafing.Data.SqlEntry
         }
 
         #region utils
-
+//learn github
         public List<DbColumnInfo> GetDbColumnInfoList(string tableName)
         {
             string sqlStr = "SELECT * FROM " + Dialect.QuoteForTableName(tableName) + " WHERE 1<>1";
